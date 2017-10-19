@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "querybuddy",
+        "scope": null,
+        "escapedName": "querybuddy",
+        "name": "querybuddy",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\joseph.williams\\Desktop\\FrameworkJs"
+    ]
+  ],
+  "_from": "querybuddy@latest",
+  "_id": "querybuddy@1.0.0",
+  "_inCache": true,
+  "_location": "/querybuddy",
+  "_nodeVersion": "7.7.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/querybuddy-1.0.0.tgz_1508001812343_0.37489164783619344"
+  },
+  "_npmUser": {
+    "name": "joey8williams",
+    "email": "joey8williams@gmail.com"
+  },
+  "_npmVersion": "5.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "querybuddy",
+    "scope": null,
+    "escapedName": "querybuddy",
+    "name": "querybuddy",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/",
+    "/simplecomponent"
+  ],
+  "_resolved": "https://registry.npmjs.org/querybuddy/-/querybuddy-1.0.0.tgz",
+  "_shasum": "5a73c1b1f7154b0c965b2e3baf74b0a089322066",
+  "_shrinkwrap": null,
+  "_spec": "querybuddy",
+  "_where": "C:\\Users\\joseph.williams\\Desktop\\FrameworkJs",
+  "author": {
+    "name": "Joey Williams"
+  },
+  "dependencies": {},
+  "description": "a query language for DOM manipulation",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-dKI0KZqhB99C3y2IoObXijM3g5kDBl2UUwVU1G3xBdE37uU2O2EM35kI2QTkzm4Y01mHs/DQrtMtT5AvYtF9Lg==",
+    "shasum": "5a73c1b1f7154b0c965b2e3baf74b0a089322066",
+    "tarball": "https://registry.npmjs.org/querybuddy/-/querybuddy-1.0.0.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "joey8williams",
+      "email": "joey8williams@gmail.com"
+    }
+  ],
+  "name": "querybuddy",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
