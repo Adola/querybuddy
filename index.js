@@ -1,41 +1,8 @@
-class query{
-  constructor(){
+//This is a simplified, and better version of queerybuddy. 
+//Usage: Just call $(".class").  
+//EDIT: There's evidently a CDN for jQuery which basically does this but has functions too! 
 
-  }
-
-  static one(elementType, selectorValue, parent = document, selectorType = 'id'){
-     const isById = selectorType == 'id';
-
-     return isById ? parent.getElementById(selectorValue)
-                   : parent.querySelector(`${elementType}[${selectorType}="${selectorValue}"]`);
-  }
-  static oneLike(elementType,selectorValue, parent = document, selectorType = 'id'){
-     return parent.querySelector(`${elementType}[${selectorType}*="${selectorValue}"]`);
-  }
-  static all(elementType,selectorValue, parent = document, selectorType = 'id'){
-     const isByClass = selectorType == 'class';
-
-     return isByClass ? [...parent.getElementsByClassName(selectorValue)]
-                      : [...parent.querySelectorAll(`${elementType}[${selectorType}="${selectorValue}"]`)];
-  }
-  static allLike(elementType,selectorValue, parent = document, selectorType = 'id'){
-    return [...parent.querySelectorAll(`${elementType}[${selectorType}*="${selectorValue}"`)];
-  }
-  static component(elementType, parent = document){
-    return [...parent.getElementsByTagName(elementType)].shift();
-  }
-  static allComponent(elementType,parent=document){
-    return [...parent.getElementsByTagName(elementType)];
-  }
-
-  static getData(element,name){
-    return element.getAttribute(`data-${name}`);
-
-  }
-  static setData(element,name,value){
-    return element.setAttribute(`data-${name}`,value);
-  }
-  
+var $ = function(selector){
+  return document.querySelector(selector); 
 }
 
-module.exports.domQuery;
